@@ -1,0 +1,59 @@
+#layout {
+    width: 500px;
+    border: 1px solid black;
+  
+}
+
+#layout > div {
+    height: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-align: center;
+}
+
+#layout > :first-child {
+    border: solid 1px black;
+}
+
+#layout > :nth-child(2) {
+    border: solid 1px black;
+
+}
+
+#layout > :nth-child(3) {
+    border: solid 1px black;
+    border-bottom: solid 2px black;
+    width: 70%;
+    height: 147px;
+    float: left;
+    padding-top: 10%;
+
+}
+
+#layout > :nth-child(4) {
+    border: solid 1px black;
+    height: 300px;
+    width: 30%;
+    float: right;
+    padding-top: 25%;
+
+}
+
+#layout > :nth-child(5) {
+    border: solid 1px black;
+    height: 300px;
+    width: 70%;
+    padding-top: 40%;
+}
+
+#layout > :nth-child(6) {
+    border: solid 1px black;
+    height: 80px;
+}
+
+#layout::after {
+    content: '';
+    display: block;
+    clear: both;
+}

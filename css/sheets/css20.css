@@ -1,0 +1,16 @@
+#grid-container {
+    display: grid;
+    grid-template-columns: 100px 400px 100px; /* 3 columns */
+    grid-template-rows: 80px 350px 150px;   /* 3 rows */
+}
+
+#grid-container > div {
+    font-size: 30px;
+    border: solid black 3px;
+    padding: 5px 15px;
+}
+
+#div7 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}

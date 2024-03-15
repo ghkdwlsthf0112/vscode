@@ -1,0 +1,105 @@
+[id*="div"] {
+    border: 3px solid black;
+    width: 500px;
+    text-align: justify;
+}
+
+#float-div1 {
+    border: 3px solid black;
+    width: 400px;
+}
+
+#img1-1 {
+    width: 150px;
+    height: auto;
+    float: right;
+}
+
+#img1-2 {
+    width: 150px;
+    height: auto;
+    float: right;
+}
+
+#img2-1 {
+    width: 150px;
+    height: auto;
+    float: left;
+}
+
+#img2-2 {
+    width: 150px;
+    height: auto;
+    float: right;
+}
+
+#img3-1 {
+    width: 150px;
+    height: auto;
+    float: left;
+}
+
+#img3-2 {
+    width: 150px;
+    height: auto;
+    float: right;
+    clear: left;    /* 왼쪽에 다른 float 요소가 올 수 없게끔 */
+}
+
+#img4-2 {
+    width: 150px;
+    height: auto;
+    float: right;
+}
+
+#img5-1 {
+    width: 150px;
+    height: auto;
+    float: right;
+}
+
+#float-layout {
+    width: 1000pt;
+    border: 1px solid black;
+    color: aliceblue;
+}
+
+#float-laout > div {
+    height: 100px;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#float-layout > :first-child {
+    background-color: maroon;
+    width: 20%;
+}
+
+#float-layout > :nth-child(2) {
+    background-color: tomato;
+    width: 60%;
+}
+
+#float-layout > :nth-child(3) {
+    background-color: green;
+    width: 20%;
+}
+
+#float-layout > :nth-child(4) {
+    background-color: yellow;
+    height: 500px;
+    width: 80%;
+}
+
+#float-layout > :nth-child(5) {
+    background-color: steelblue;
+    height: 500px;
+    width: 20%;
+}
+
+#float-layout::after {
+    content: '';
+    display: block;
+    clear: both;
+}

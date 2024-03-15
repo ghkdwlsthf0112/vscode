@@ -1,0 +1,36 @@
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hedvig+Letters+Serif:opsz@12..24&family=Rubik+Bubbles&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hedvig+Letters+Serif:opsz@12..24&family=Nanum+Brush+Script&family=Rubik+Bubbles&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gasoek+One&family=Hedvig+Letters+Serif:opsz@12..24&family=Nanum+Brush+Script&family=Rubik+Bubbles&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+    #google-font-ex1 {
+    /* 폰트를 적용할 때 ,를 사용*/
+    font-family: 'Rubik Bubbles', '굴림', cursive;
+    text-shadow: 0 0 15px palegoldenrod,
+                0 0 13px palegoldenrod,
+                0 0 10px palegoldenrod;
+    font-size: 25px;
+}
+
+#google-font-ex2 {
+    color: blue;
+    font-family: 'Nanum Brush Script', '굴림', cursive;
+    font-size: 40px;
+}
+
+  #google-font-ex3 {
+    color: gray;
+    font-family: 'Gasoek One', '굴림', cursive;
+    font-size: 30px;
+  }
+
+  #google-font-ex4 {
+    color: black;
+    text-shadow: 0 0 20px slateblue,
+                0 0 17px slateblue,
+                0 0 14px slateblue,
+                0 0 10px slateblue;
+    font-family: 'Whisper', '굴림', cursive;
+    font-size: 30px;
+  }
+
+  

@@ -1,0 +1,26 @@
+.container1 {
+    display: grid;
+    grid-template-columns : 220px 220px;
+    grid-template-rows: 50px 50px 50px;
+}
+
+.container1 > div {
+    background-color: skyblue;
+    color: white;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns : 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 10px;
+
+}
+
+.container2 > div {
+    background-color: skyblue;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    border-radius:10px;
+}

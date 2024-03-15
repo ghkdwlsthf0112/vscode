@@ -1,0 +1,12 @@
+#outer {
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px 80px 80px;
+}
+
+#outer > div {
+    font-size: 25px;
+    background-color: cornflowerblue;
+    color: white;
+    margin: 2px;
+}

@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+h3 {
+    height: 50px;
+    border-bottom: solid gray;
+}
+
+.menu {
+    width: 200px;
+    height: 1000px;
+    background-color: gainsboro;
+    margin-top: 10px;
+}
+
+.content {
+    margin-left: 50px;
+}
+
+.middle {
+    display: flex;
+    background-color: whitesmoke;
+}
+
+.ad {
+    margin: 20px 5px 0px 0px;
+    width: 1200px;
+    height: 200px;
+}
+
+.ad > img{
+    width: 1200px;
+    height: 200px;
+}
+
+.cont1 {
+    display: flex;
+}
+
+.video1 {
+    height: 200px;
+    width: 1200px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.title1 {
+    margin: 15px 0 15px 0;
+    background-color: whitesmoke;
+    height: 60px;
+}
+
+.video2 {
+    margin: 10px 0 10px 0;
+    height: 200px;
+    width: 1200px;
+    display: flex;
+}
+
+.title2 {
+    margin: 90px 0 90px 0;
+    background-color: whitesmoke;
+    height: 60px;
+}
+
+.v1 {
+    height: 200px;
+    width: 270px;
+    margin-right: 40px;
+}
+
+.v1 > img {
+    height: 200px;
+    width: 270px;
+}
+
+.v2 {
+    height: 200px;
+    width: 270px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+
+.v2 > img {
+    height: 200px;
+    width: 270px;
+}
+

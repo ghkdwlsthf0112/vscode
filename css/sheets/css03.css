@@ -1,0 +1,11 @@
+.detail{
+    font-size: 0.8em;
+}
+
+#quiz1 li:nth-of-type(even) {
+    border: solid red;
+}
+
+#quiz2 li:first-child, #quiz2 li:last-child {
+    color: red;
+}
